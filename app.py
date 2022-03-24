@@ -10,5 +10,5 @@ qr = qrcode.QRCode(
 qr.add_data('https://mobile.ourofino.com/sap/bc/ui5_ui5/ui2/ushell/shells/abap/FioriLaunchpad.html?sap-client=300&sap-language=PT')
 qr.make(fit=True)
 
-img = qr.make_image(fill_color="black", back_color= "white")
+img = qr.make_image(fill_color="black", back_color="white")
 img.save('fioriMobile.png')
